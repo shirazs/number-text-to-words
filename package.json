@@ -1,0 +1,19 @@
+{
+  "name": "number-text-parser",
+  "version": "1.0.0",
+  "description": "Number to text parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://shiraz_solangi@bitbucket.org/shiraz_solangi/number-text-parser.git"
+  },
+  "author": "Shiraz Solangi",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/shiraz_solangi/number-text-parser#readme",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}
