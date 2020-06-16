@@ -2,36 +2,41 @@
 
 // One numbers - n >= 0 && n < 20
 const ones = [
-  "Zero", 
-  "One", 
-  "Two", 
-  "Three", 
-  "Four", 
-  "Five", 
-  "Six", 
-  "Seven", 
-  "Eight", 
-  "Nine",
-  "Ten", 
-  "Eleven", 
-  "Twelve", 
-  "Thirteen", 
-  "Fourteen", 
-  "Fifteen", 
-  "Sixteen", 
-  "Seventeen",
-  "Eighteen", 
-  "Nineteen"
+  "zero", 
+  "one", 
+  "two", 
+  "three", 
+  "four", 
+  "five", 
+  "six", 
+  "seven", 
+  "eight", 
+  "nine",
+  "ten", 
+  "eleven", 
+  "twelve", 
+  "thirteen", 
+  "fourteen", 
+  "fifteen", 
+  "sixteen", 
+  "seventeen",
+  "eighteen", 
+  "nineteen"
 ];
 
 // Tens number names - n > 19 && n < 99 
-const tens = ["", "", "Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety"];
+const tens = ["", "", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"];
 
-// Scale number names 
-const scales = ["", "", "", "Hundred", "Thousand", "Million", "Billion"];
+// Number Scale names - add more to this list to support even larger numbers
+const scales = {
+  3: "thousand", 
+  6: "million", 
+  9: "billion",
+  12: "trillion"
+};
 
 module.exports = {
-  numbers: {
+  Numbers: {
     ones,
     tens,
     scales
