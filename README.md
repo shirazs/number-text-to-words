@@ -1,29 +1,37 @@
-# README #
+# Convert a number into words #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Converts a given number into words. For example, given the number “1234” as input, return the output “one thousand, two hundred and thirty-four”.
 
-### What is this repository for? ###
+## Architecture
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+Node (v13) is the choice I made as it fulfills the requirements such as output to the STDOUT or be able to read data via a text file, although I didn't quite get round to that, it can easily be implemented. There's also potential of
+writing an API that can output this data to be used by a web client.
 
-### How do I get set up? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+### Prerequisites
 
-### Contribution guidelines ###
+* node >= 13
 
-* Writing tests
-* Code review
-* Other guidelines
 
-### Who do I talk to? ###
+### Installation
+ 
+1. Clone the repo
+```sh
+	git clone https://shiraz_solangi@bitbucket.org/shiraz_solangi/number-text-parser.git
+```
 
-* Repo owner or admin
-* Other community or team contact
+2. Install NPM packages
+```sh
+	npm install
+```
+
+## Usage
+
+Commands
+
+```sh
+	- node index.js "Some text to parse"
+
+	- npm t #Run test suite using Jest
+```
+
