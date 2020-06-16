@@ -11,7 +11,6 @@ describe('Handles invalid or missing input', () => {
   
 });
 
-
 test('Handles basic case', () => {
   expect(NumberToText('0 tolerance')).toEqual('zero');
 });
