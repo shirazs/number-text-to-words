@@ -5,10 +5,13 @@ Converts a given number into words. For example, given the number “1234” as 
 
 ### Prerequisites
 
-* node >= 13
+* n
+Node >= 13
+
 
 
 ### Installation
+
  
 1. Clone the repo
 
@@ -22,11 +25,17 @@ Converts a given number into words. For example, given the number “1234” as 
 	npm install
 ```
 
+
 ## Usage
+
 
 ```sh
 	node index.js "Some text to parse"
 ```
+
+![image](https://user-images.githubusercontent.com/810215/84938086-9d7d2080-b0d4-11ea-9de5-b3255dc69e3e.png)
+
+
 
 Run tests
 
