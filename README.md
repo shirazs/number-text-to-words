@@ -2,7 +2,6 @@
 
 Converts a given number into words. For example, given the number “1234” as input, return the output “one thousand, two hundred and thirty-four”.
 
-<br />
 
 ### Prerequisites
 
@@ -23,7 +22,6 @@ Converts a given number into words. For example, given the number “1234” as 
   npm install
 ```
 
-<br />
 
 ## Usage
 
