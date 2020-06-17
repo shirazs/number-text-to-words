@@ -32,9 +32,9 @@ function groupNumberIntoArray(input) {
   const output = [...input].reduceRight((accumulator, currentValue, index) => {
     
     if (chunk.length < 3) {
-    	chunk.unshift(currentValue)
+    	chunk.unshift(currentValue);
     } else {
-      accumulator.unshift([chunk.join('')])
+      accumulator.unshift([chunk.join('')]);
       chunk = new Array(currentValue);
     }
 

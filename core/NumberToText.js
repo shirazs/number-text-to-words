@@ -1,6 +1,6 @@
 
 const {getNumberOrThrow, groupNumberIntoArray} = require('./utils')
-const {Numbers} = require('./NumberData')
+const {Numbers} = require('./numberData')
 
 function NumberToText(input) {
   
