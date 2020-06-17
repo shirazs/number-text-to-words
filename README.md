@@ -24,8 +24,6 @@ Converts a given number into words. For example, given the number “1234” as 
 
 ## Usage
 
-Command line 
-
 ```sh
 	node index.js "Some text to parse"
 ```
