@@ -14,7 +14,7 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/shiraz_solangi/number-text-parser#readme",
   "devDependencies": {
-    "jest": "^26.0.1"
+    "jest": "^26.1.0"
   },
   "dependencies": {
     "boxen": "^4.2.0",
