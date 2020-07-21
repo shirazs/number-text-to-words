@@ -5,9 +5,9 @@ Converts a given number into words. For example, given the number “1234” as 
 
 ### Prerequisites
 
-* Node >= 13
+* Node >= 12
 
-<br />
+
 
 ### Installation
 
