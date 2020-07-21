@@ -8,11 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://shiraz_solangi@bitbucket.org/shiraz_solangi/number-text-parser.git"
+    "url": "git+https://github.com/shirazs/number-text-to-words.git"
   },
   "author": "Shiraz Solangi",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/shiraz_solangi/number-text-parser#readme",
+  "homepage": "https://github.com/shirazs/number-text-to-words/blob/master/README.md",
   "devDependencies": {
     "jest": "^26.1.0"
   },
